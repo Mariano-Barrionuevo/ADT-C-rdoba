@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Mariano Barrionuevo">
+    <!-- link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- link CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- fav icon-->
+    <link rel="shortcut icon" href="../multimedia/img/logoAdt.png" type="image/x-icon">
+    <!-- link Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>ADT Agente Oficial</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-opacity-25 headerNav">
+        <div class="container-fluid">
+
+
+            <!-- logo y titulo -->
+            <div class="logoNav">
+                <a href="../index.html"><img id="logoNav" src="../multimedia/img/logoAdt.png" alt="logo-ADT"></a>
+            </div>
+
+            <!-- Barra de navegacion-->
+
+            <a class="navbar-brand" href="../index.html"> <b>ADT</b> <span class="brand">Agente Oficial</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon visible"><i class="bi bi-list"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <div class="divisorTwo"></div>
+                    <li class="nav-item">
+                        <a class="nav-link " href="productos.html">Productos</a>
+                    </li>
+                    <div class="divisorTwo"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <div class="divisorTwo"></div>
+                    <li class="nav-item">
+                        <a class="nav-link " href="atencion.html">Atención al cliente</a>
+                    </li>
+                    <div class="divisorTwo"></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Contenido principal de la pagina -->
+    <br>
+    <form class="row needs-validation" novalidate>
+        <h1>Enviar una solicitud</h1>
+        <h5>Completá el formulario</h5>
+        <hr>
+
+        <div class="col-md-6 flex">
+            <label for="inputState" class="form-label textForm">Selecciona una opción</label>
+            <select id="inputState" class="form-select" required>
+                <option selected disabled value="">Elegir...</option>
+                <option>Formulario de contacto</option>
+                <option>Modificación del servicio</option>
+                <option>Facturación electronica mensual</option>
+                <option>Formulario de servicio técnico</option>
+                <option>Formulario número de cliente</option>
+                <option>Contacto cobranzas</option>
+                <option>Baja de servicio</option>
+                <option>Solicitud de reintegro</option>
+                <option>Blanqueo de clave</option>
+                <option>Adhesión al débito automático</option>
+            </select>
+        </div>
+
+        <div class="col-md-6 flex">
+            <label for="exampleFormControlInput1" class="form-label textForm">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com"
+                required>
+        </div>
+
+        <div class="mb-3 flex">
+            <label for="exampleFormControlTextarea1" class="form-label textForm">Descripción</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje*"></textarea>
+        </div>
+
+        <div class="col-md-6 flex">
+            <label for="validationCustom01" class="textForm">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre y Apellido*" required>
+        </div>
+
+        <div class="col-md-6 flex">
+            <label for="validationCustom02" class="textForm">CUIT/DNI</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="CUIT/DNI del titular*"
+                required>
+        </div>
+
+        <div class="col-md-6 flex">
+            <label for="inputCity" class="form-label textForm">Telefono de contacto</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Telefono de contacto*" required>
+        </div>
+
+        <div class="col-md-6 flex">
+            <label for="inputCity" class="form-label textForm">Dirección</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Dirección*" required>
+        </div>
+
+        <div class="col-md-6 flex">
+            <label for="inputCity" class="form-label textForm">Localidad</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Localidad*" required>
+        </div>
+
+        <div class="col-md-6 flex">
+            <label for="inputCity" class="form-label textForm">Provincia</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Provincia*" required>
+        </div>
+
+        <div class="col-md-6 flex">
+            <label for="inputCity" class="form-label textForm">Palabra clave</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Palabra clave*" required>
+        </div>
+
+        <div class=" col-md-6 flex mb-3">
+            <label for="formFile" class="form-label textForm">Seleccionar archivo</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+
+
+
+        <div class="d-grid gap-2 col-6 mx-auto flex">
+            <button type="submit" class="btn-lg btn-outline-primary">Enviar</button>
+        </div>
+
+    </form>
+
+
+
+    <script>
+        // Ejemplo de JavaScript de inicio para deshabilitar el envío de formularios si hay campos no válidos
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Obtener todos los formularios a los que queremos aplicar estilos de validación de Bootstrap personalizados
+                var forms = document.getElementsByClassName('needs-validation');
+                // Bucle sobre ellas y evitar la presentación
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <section class="navegacion">
+        <div class="titleTwo">
+            <h1>¿Por qué elegir ADT?</h1>
+        </div>
+        <div class="desarrollo">
+            <div class="uno">
+                <img class="img-b" src="/multimedia/img/productos/aside2.jpg" alt="">
+                <div class="desc1">
+                    <h5>ADT brinda protección integral</h5>
+                    <h6>Ofrecemos atención personalizada y eficaz, con una calidad de servicio de primer nivel. Somos
+                        sinónimo
+                        de confianza y tranquilidad, gracias a nuestras soluciones de protección que se adaptan a las
+                        necesidades
+                        tanto de hogares como de empresas.</h6>
+                </div>
+            </div>
+            <div class="divisor"></div>
+            <div class="dos">
+                <img class="img-b" src="/multimedia/img/productos/aside3.jpg" alt="">
+                <div class="desc1">
+                    <h5>Líder en seguridad y monitoreo de alarmas</h5>
+                    <h6>Durante décadas hemos protegido hogares y empresas de todo el mundo. Nuestra vasta experiencia
+                        en
+                        seguridad electrónica y monitoreo de alarmas, avalan nuestra posición.</h6>
+                </div>
+            </div>
+            <div class="divisor"></div>
+            <div class="tres">
+                <img class="img-b" src="/multimedia/img/productos/aside4.jpg" alt="">
+                <div class="desc1">
+                    <h5>ADT es seguridad 24/7/365</h5>
+                    <h6>Brindamos protección a miles de hogares y comercios, las 24 horas del día, los 7 días de la
+                        semana, los
+                        365 días del año. Nuestra Central de Monitoreo cuenta con la más alta tecnología y especialistas
+                        altamente
+                        capacitados para brindar un servicio de excelencia.</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PIE DE PAGINA -->
+    <footer class="footer">
+        <!-- links utiles -->
+        <div class="footer-item">
+            <ul class="footer__list">
+                <li class="footer__li"><a class="footer__link" href="../index.html">Inicio</a></li>
+                <li class="footer__li"><a class="footer__link" href="productos.html">Productos</a></li>
+                <li class="footer__li"><a class="footer__link" href="servicios.html">Servicios</a></li>
+                <li class="footer__li"><a class="footer__link" href="atencion.html">Atención al cliente</a></li>
+                <li class="footer__li"><a class="footer__link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <!-- logo footer-->
+        <div class="footer-item">
+            <a href="index.html">
+                <img id="logoFooter" src="../multimedia/img/logoAdt.png" alt="logo-ADT">
+            </a>
+        </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
